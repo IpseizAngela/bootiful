@@ -1,0 +1,7 @@
+langage: java
+jdk: openjdk8
+
+
+
+after_deploy:
+  - echo "done deploying"
