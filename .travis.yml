@@ -1,5 +1,6 @@
 langage: java
-jdk: openjdk8
+sudo: true
+jdk: openjdk11
 
 
 
