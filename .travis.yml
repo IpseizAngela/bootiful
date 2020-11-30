@@ -2,7 +2,9 @@ langage: java
 sudo: true
 jdk: openjdk11
 
-
+addon:
+  sonnarcloud:
+    token: $SECRETVALUE
 
 after_deploy:
   - echo "done deploying"
