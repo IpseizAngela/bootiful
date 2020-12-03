@@ -6,6 +6,9 @@ addon:
   sonnarcloud:
     token: $SECRETVALUE
 
+install:
+  - mvn install -Dskiptests=test -Dmaven.javadoc.skip=true -B -V
+
 script:
   - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar
 
