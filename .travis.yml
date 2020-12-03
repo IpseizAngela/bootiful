@@ -4,6 +4,7 @@ jdk: openjdk11
 
 addon:
   sonnarcloud:
+    organization: angelaipseiz
     token: $SECRETVALUE
 
 install:
