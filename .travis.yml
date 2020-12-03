@@ -6,5 +6,8 @@ addon:
   sonnarcloud:
     token: $SECRETVALUE
 
+script:
+  - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar
+
 after_deploy:
   - echo "done deploying"
