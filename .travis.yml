@@ -2,7 +2,7 @@ langage: java
 sudo: true
 jdk: openjdk11
 
-addon:
+addons:
   sonnarcloud:
     organization: "IpseizAngela"
     token: $SECRETVALUE
